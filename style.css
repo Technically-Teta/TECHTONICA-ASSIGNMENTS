@@ -12,4 +12,12 @@ img {
     align-items: center;
     margin-bottom: 100%;
     padding: 200px 0;
+    position: relative;
+}
+
+.autoplay {
+position: absolute;
+top: 0;
+left: 0%;
+
 }
