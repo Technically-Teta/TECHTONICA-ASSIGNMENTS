@@ -1,6 +1,6 @@
 
 
-.
+
 
 body {
             margin: 0;
@@ -18,3 +18,10 @@ body {
             object-fit: cover;
             z-index: -1;
         }
+
+
+form{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font color: "white";
+}
+
