@@ -3,13 +3,13 @@
 
 
 body {
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            position: relative;
-        }
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
 
-        video#autoplay {
+video#autoplay {
             position: absolute;
             top: 0;
             left: 0;
@@ -20,8 +20,24 @@ body {
         }
 
 
+
+
+
+
 form{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font color: "white";
+    color:cornsilk;
 }
+
+h1{
+    font-family: 'Bungee Spice', cursive;
+}
+
+h2{
+    font-family: serif;
+    font-style: oblique;
+    color: cornflowerblue;
+}
+
+
 
