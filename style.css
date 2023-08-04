@@ -34,7 +34,7 @@ form button {
 h1 {
     font-size: 80px;
     font-family: 'Nabla', cursive;
-    text-align: left;
+    text-align: center;
     margin-bottom: 20px;
     margin-top: -100px;
 }
@@ -54,6 +54,7 @@ h2 {
     font-size: 24px;
     margin-left: auto;
     text-align: right;
+    ;
 }
 
 
@@ -107,17 +108,25 @@ td {
     font-size: 18px;
 }
 
-img {
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 500px;
     height: 500px;
-
-    .border-box {
-        border: 5px ridge orange;
-    }
-
-
+    border: 2px solid #000;
+    /* Change #000 to the desired border color */
+    border-radius: 50%;
+    /* This will make the image circular */
+    overflow: hidden;
+    /* This is important to clip the image within the rounded border */
 }
 
+.image-container img {
+    max-width: 100%;
+    max-height: 100%;
+    box-sizing: border-box;
+}
 @media (max-width: 1080px) {
     img {
         width: 100%;
