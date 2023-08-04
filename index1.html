@@ -7,46 +7,126 @@
     <title>replit</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
 
-    <link href=" <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nabla&display=swap" rel="stylesheet">
+
+
 </head>
 
 <body>
-    <h1>Samelia Quioh </h1>
     
-    <h2>Let's stay connected! Register for my Newsletter</h2>
-  
-     
-     <video id="autoplay" autoplay muted loop> 
-            <source src="/Users/sameliahquioh/Documents/TECHTONICA/Class assignments/WEEK 3/forms/473287184.mp4  "   type="video/mp4">
-         <h2>Stay connected! Register for my Newsletter</h2>
-        </video>
+        <div class="image-container">
+            <img src="Profile-main.jpeg" alt="picture of samelia quioh">                                    
+         </div>
 
 
-    <form  form id="email-form">
-        <label>Email:</label> 
-         <input type="email" id="email-input" placeholder="Please type your email" required>
-          <label>Name:</label> 
-         <input type ="name"  id= "name-id"  placeholder="*Name" required>
-          <label>Phone:</label> 
-         <input type="phone"  id="phone-id"  placeholder="Phone">
-          <label>Address:</label> 
-         <input type ="address" id="address-id" placeholder="Address">
-          
-         <button type="submit">Subscribe</button>   
+    <h1>Samelia M Quioh</h1>
 
-      </form>
+    <div id="table-id">
+        <colgroup>
+            <col span=" 2">
+            <col style=" border: 2px solid black">
+        </colgroup>
+        <table border="4">
+            <tr>
+                <th scope="col">Current Location</th>
+                <th scope="col">Hometown</th>
+                <th scope="col">Education</th>
+                <th scope="col">Tech Education</th>
+                <th scope="col">Tech Experience</th>
+                <th scope="col">Corporate Experience</th>
+                <th scope="col">Volunteerism</th>
+                <th scope="col">Board Membership</th>
+                <th scope="col">Dream Tech Project</th>
+            </tr>
+
+            <tr>
+                <td>Los Angeles, CA</td>
+                <td>Minneapolis,MN</td>
+                <td>Bachelor of Science of Business Administration, Associate of Arts - Liberal Arts</td>
+                <td>Cloud Computing Certificate , AWS Cloud Practioner Certificate</td>
+                <td>Voter Registration tech help </td>
+                <td> Meta-Project Coordinator, JNR Adjustment- Project Analyst, American Family Insurance- Underwriter, Credit Karma-Project Coordinator</td>
+                <td>Habitat for Humanity, Los Angeles Read-a-thon,Aeon Homeless Initiatives</td>
+                <td>Minneapolis Young Black Professionals</td>
+                <td>Work with research Data to find solutions to help homelessness. Design an app to find home for shelter pets.</td>
+            </tr>
+        </table>
+    </div>
+
+    <div id=" bio-id" class=" Bio">
+
+        
+
+        <button class="button" id=" btn-id" onclick="displayText()">Read my Bio</button>
+
+        <div id="textField" style="display: none;">
+            I am originally from Monrovia, Liberia, in West Africa, and my parents and I immigrated to the US when I was
+            only 2
+            years old. I grew up in Minneapolis, MN. When I went to community college, I was encouraged to enter the
+            nursing program
+            as so many of my relatives were nurses. I knew after one Human Anatomy class that nursing was not for me! I
+            was
+            interested in Computer Science but could not afford to obtain a degree in the field at the time, so I
+            graduated with an
+            Associate of Arts Degree and continued to obtain a Bachelor of Science Degree in Business Administration.
+            Outside of college, I have always loved creating beautiful looks for people. I worked part-time as a
+            self-taught
+            professional makeup artist for nearly 20 years.
+            After my role at my company was eliminated due to covid layoffs, I decided to use my time off as an
+            opportunity to learn
+            software engineering to not only challenge myself but to pursue the long interest in Computer science, so I
+            decided to
+            challenge my self to learn how to code. As I grew to love coding, I decided to pursue a software engineering
+            career.
+
+        </div>
+
+    </div>
 
 
-     
+    <div class="button-effect">
+        <h2></h2>
+        <a class="effect effect-4" href="#" title="Learn More">Facebook</a>
+        <a class="effect effect-4" href="#" title="Learn More">Instagram</a>
+        <a class="effect effect-4" href="#" title="Learn More">TickTok</a>
+        <a class="effect effect-4" href="#" title="Learn More">Youtube</a>
+        <a class="effect effect-4" href="#" title="Learn More">Email me</a>
+    </div>
 
 
 
 
 
- 
+
+
+
+
+    </div>
+
+
+    <div class="Register">
+        <form id="email-form">
+            <label>Register Here for my Newsletter!:</label>
+            <input type="email" id="email-input" placeholder="Please type your email" required>
+            <input type="name" id="name-id" placeholder="*Name" required>
+            <input type="phone" id="phone-id" placeholder="Phone">
+            <input type="address" id="address-id" placeholder="Address">
+
+            <button type="submit">Subscribe</button>
+        </form>
+        <p id="message"></p>
+    </div>
+
+
+
+
     <script src="index.js"> </script>
+
+
+
+
 </body>
 
 </html>
