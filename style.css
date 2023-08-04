@@ -110,18 +110,22 @@ td {
 
 .image-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-    height: 200px;
+    width: 500px;
+    height: 500px;
     border: 2px solid #000;
     /* Change #000 to the desired border color */
-    border-radius: 50%;
+    border-radius: 80%;
     /* This will make the image circular */
-    overflow: hidden;
+    overflow:auto;
     /* This is important to clip the image within the rounded border */
 }
 
+image-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+    box-sizing: border-box;
+}
 
     
 
